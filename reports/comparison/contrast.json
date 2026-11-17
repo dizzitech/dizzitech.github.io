@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Основной текст / фон",
+    "foreground": "#111111",
+    "background": "#f8faff",
+    "ratio": 18.08
+  },
+  {
+    "name": "Заголовки / фон",
+    "foreground": "#0b0f19",
+    "background": "#f8faff",
+    "ratio": 18.34
+  },
+  {
+    "name": "Вторичный текст / фон",
+    "foreground": "#242424",
+    "background": "#f8faff",
+    "ratio": 14.86
+  },
+  {
+    "name": "Дополнительные подписи / фон",
+    "foreground": "#333333",
+    "background": "#f8faff",
+    "ratio": 12.1
+  },
+  {
+    "name": "Вторичный текст / hover",
+    "foreground": "#242424",
+    "background": "#edf2ff",
+    "ratio": 13.86
+  },
+  {
+    "name": "Ссылки / белый",
+    "foreground": "#155eef",
+    "background": "#ffffff",
+    "ratio": 5.41
+  },
+  {
+    "name": "Белый текст CTA / синий",
+    "foreground": "#ffffff",
+    "background": "#155eef",
+    "ratio": 5.41
+  },
+  {
+    "name": "Подписи сети / белый",
+    "foreground": "#1048c5",
+    "background": "#ffffff",
+    "ratio": 7.62
+  },
+  {
+    "name": "Белый текст / navy",
+    "foreground": "#fff",
+    "background": "#102a4c",
+    "ratio": 14.41
+  },
+  {
+    "name": "Почти белый текст / navy",
+    "foreground": "#f5f5f5",
+    "background": "#102a4c",
+    "ratio": 13.22
+  }
+]

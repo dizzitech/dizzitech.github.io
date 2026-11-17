@@ -1,0 +1,1826 @@
+{
+  "320": {
+    "kk": {
+      "height": 3114,
+      "scrollWidth": 320,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 66
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 132
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 24.3,
+          "height": 24
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 24.75,
+          "height": 74
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 14,
+          "lineHeight": 21,
+          "height": 45
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 750,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 1089,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 520,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 646,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 3017,
+      "scrollWidth": 320,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 66
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 132
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 24.3,
+          "height": 24
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 24.75,
+          "height": 74
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 14,
+          "lineHeight": 21,
+          "height": 17
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 750,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 1086,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 520,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 552,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "375": {
+    "kk": {
+      "height": 2877,
+      "scrollWidth": 375,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 27.9,
+          "height": 112
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 15,
+          "lineHeight": 22.5,
+          "height": 18
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 749,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 994,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 495,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 532,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 2850,
+      "scrollWidth": 375,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 27.9,
+          "height": 112
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 15,
+          "lineHeight": 22.5,
+          "height": 18
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 749,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 1020,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 462,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 512,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "390": {
+    "kk": {
+      "height": 2863,
+      "scrollWidth": 390,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 27.9,
+          "height": 112
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 15,
+          "lineHeight": 22.5,
+          "height": 18
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 760,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 969,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 495,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 532,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 2759,
+      "scrollWidth": 390,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 36,
+          "lineHeight": 39.6,
+          "height": 79
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 27.9,
+          "height": 112
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 59
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 15,
+          "lineHeight": 22.5,
+          "height": 18
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 760,
+          "paddingTop": 9,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 918,
+          "paddingTop": 29,
+          "paddingBottom": 29
+        },
+        {
+          "id": "process",
+          "height": 462,
+          "paddingTop": 0,
+          "paddingBottom": 28
+        },
+        {
+          "id": "contacts",
+          "height": 512,
+          "paddingTop": 27,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 122,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "768": {
+    "kk": {
+      "height": 1706,
+      "scrollWidth": 768,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 34.56,
+          "lineHeight": 36.9792,
+          "height": 74
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 27.2,
+          "height": 109
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 102
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 58
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 426,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 580,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 277,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 347,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 1655,
+      "scrollWidth": 768,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 34.56,
+          "lineHeight": 36.9792,
+          "height": 74
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 27.2,
+          "height": 82
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 25.2,
+          "height": 58
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 17,
+          "lineHeight": 26.35,
+          "height": 0
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 426,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 554,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 251,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 347,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "1024": {
+    "kk": {
+      "height": 1555,
+      "scrollWidth": 1024,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 43.008,
+          "lineHeight": 46.0186,
+          "height": 92
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 27.2,
+          "height": 82
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 24.3,
+          "height": 24
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24.8,
+          "height": 74
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 441,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 436,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 253,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 347,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 1577,
+      "scrollWidth": 1024,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 43.008,
+          "lineHeight": 46.0186,
+          "height": 92
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 28,
+          "lineHeight": 33.04,
+          "height": 33
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 27.2,
+          "height": 82
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 18,
+          "lineHeight": 24.3,
+          "height": 24
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24.8,
+          "height": 74
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 77
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 441,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 457,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 253,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 347,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "1280": {
+    "kk": {
+      "height": 1552,
+      "scrollWidth": 1280,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 53.76,
+          "lineHeight": 57.5232,
+          "height": 115
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 33.92,
+          "lineHeight": 40.0256,
+          "height": 40
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 455,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 229,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 328,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 1501,
+      "scrollWidth": 1280,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 53.76,
+          "lineHeight": 57.5232,
+          "height": 115
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 33.92,
+          "lineHeight": 40.0256,
+          "height": 40
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 404,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 229,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 328,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "1440": {
+    "kk": {
+      "height": 1514,
+      "scrollWidth": 1440,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 58,
+          "lineHeight": 62.06,
+          "height": 124
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 38,
+          "lineHeight": 44.84,
+          "height": 45
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 409,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 233,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 332,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 1514,
+      "scrollWidth": 1440,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 58,
+          "lineHeight": 62.06,
+          "height": 124
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 38,
+          "lineHeight": 44.84,
+          "height": 45
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 409,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 233,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 332,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  },
+  "1920": {
+    "kk": {
+      "height": 1515,
+      "scrollWidth": 1920,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 58,
+          "lineHeight": 62.06,
+          "height": 124
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 38,
+          "lineHeight": 44.84,
+          "height": 45
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 409,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 234,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 332,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    },
+    "ru": {
+      "height": 1515,
+      "scrollWidth": 1920,
+      "fonts": {
+        "h1": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "700",
+          "size": 58,
+          "lineHeight": 62.06,
+          "height": 124
+        },
+        "h2": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "650",
+          "size": 38,
+          "lineHeight": 44.84,
+          "height": 45
+        },
+        ".hero-description": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 18,
+          "lineHeight": 28.8,
+          "height": 86
+        },
+        ".service-card h3": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 25.65,
+          "height": 26
+        },
+        ".service-card p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16.5,
+          "lineHeight": 25.575,
+          "height": 51
+        },
+        ".principle summary": null,
+        ".principle>p": null,
+        ".timeline-step p": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 17,
+          "lineHeight": 25.5,
+          "height": 51
+        },
+        ".pricing-content>p": null,
+        ".hero-actions .button": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "600",
+          "size": 19,
+          "lineHeight": 26.6,
+          "height": 62
+        },
+        ".main-nav a": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "500",
+          "size": 15.5,
+          "lineHeight": 24.025,
+          "height": 48
+        },
+        ".contact-unset": {
+          "family": "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "weight": "400",
+          "size": 16,
+          "lineHeight": 24,
+          "height": 20
+        },
+        ".preview-notice p": null
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "height": 461,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "services",
+          "height": 409,
+          "paddingTop": 34,
+          "paddingBottom": 34
+        },
+        {
+          "id": "process",
+          "height": 234,
+          "paddingTop": 3,
+          "paddingBottom": 33
+        },
+        {
+          "id": "contacts",
+          "height": 332,
+          "paddingTop": 31,
+          "paddingBottom": 0
+        }
+      ],
+      "sectionPadding": 147,
+      "palette": {
+        "--bg": "#f5f8ff",
+        "--ink": "#102a4c",
+        "--muted": "#253b55",
+        "--pale": "#e9f0fd",
+        "--blue": "#155eef",
+        "--blue-dark": "#124ac0",
+        "--navy": "#102a4c",
+        "--on-navy": "#fff",
+        "--on-navy-muted": "#d5e3f3",
+        "--teal-light": "#64e0d1",
+        "--teal": "#007b7b"
+      }
+    }
+  }
+}

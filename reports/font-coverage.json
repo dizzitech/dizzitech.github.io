@@ -1,0 +1,35 @@
+{
+  "kk": {
+    "text": "ӘәҒғҚқҢңӨөҰұҮүҺһІі",
+    "fonts": [
+      {
+        "familyName": "Golos Text",
+        "postScriptName": "Golos-Text",
+        "isCustomFont": true,
+        "glyphCount": 18
+      }
+    ]
+  },
+  "ru": {
+    "text": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+    "fonts": [
+      {
+        "familyName": "Golos Text",
+        "postScriptName": "Golos-Text",
+        "isCustomFont": true,
+        "glyphCount": 33
+      }
+    ]
+  },
+  "latin": {
+    "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "fonts": [
+      {
+        "familyName": "Golos Text",
+        "postScriptName": "Golos-Text",
+        "isCustomFont": true,
+        "glyphCount": 26
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "version": "1.4",
+  "baselineArchive": "artifacts/DiziTech-1.3.zip",
+  "archiveSha256": "fa1e447cba4d7d96771b14ce8c6510052c21f2671873779ecd5ee5407c311c35",
+  "preservation": [
+    {
+      "file": "src/js/network.js",
+      "sha256": "2f8afc76620b1500c76e8a21f463c482c9a5c07cb58181a56f4d88b02a75dde9",
+      "identicalTo13": true
+    },
+    {
+      "file": "src/js/cursor.js",
+      "sha256": "e268814deb7739a7d71c2d04e665f564b704d90b834b3fe1532c72c6ce26404f",
+      "identicalTo13": true
+    },
+    {
+      "file": "src/i18n/kk.js",
+      "sha256": "c7f05fe210f8f533e90d996149fbe062927059580939552fdc00ae1464a5ae9e",
+      "identicalTo13": true
+    },
+    {
+      "file": "src/i18n/ru.js",
+      "sha256": "8f9e9711b92098be07a0eb35a66884cf6010a52401f605e74062d21905a3ede0",
+      "identicalTo13": true
+    },
+    {
+      "file": "site.config.mjs",
+      "sha256": "140005ee970595e08fa6f7584192e7dc9041770d00983d982ada89f30ce43864",
+      "identicalTo13": true
+    },
+    {
+      "file": ".github/workflows/pages.yml",
+      "sha256": "ad990c6d0ee729052addb1406ac0463d9ee6c49bcb57101f9849d4f7bdacc3ce",
+      "identicalTo13": true
+    }
+  ],
+  "mainMarkupUnchanged": true,
+  "svgDefinitionsUnchanged": true,
+  "logoMarkupUnchanged": true,
+  "canvasColorsUnchanged": [
+    "ink",
+    "blue",
+    "blue-dark",
+    "surface",
+    "blue-wash"
+  ],
+  "releasePreflight": {
+    "exitCode": 1,
+    "stderr": "Build blocked:\n- whatsapp: required for release; set a verified value in site.config.mjs.\n- phone: required for release; set a verified value in site.config.mjs.\n- email: required for release; set a verified value in site.config.mjs.\n- siteUrl: required for release; set a verified value in site.config.mjs.\n- githubAccount: required for release; set a verified value in site.config.mjs.\n- githubRepository: required for release; set a verified value in site.config.mjs.",
+    "previewUnchanged": true
+  },
+  "build": {
+    "files": 22,
+    "bytes": 391366,
+    "inventory": [
+      {
+        "file": ".nojekyll",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "404.html",
+        "bytes": 644,
+        "sha256": "d8718c0ff223c6aacdaa41c5aebce4ece4cec6054a773e705d155de2588079da"
+      },
+      {
+        "file": "assets/favicon.svg",
+        "bytes": 257,
+        "sha256": "58e5613f97cd46ee108dc87617a1b01e42fa85cc5d17e924ab1ade81264e9c12"
+      },
+      {
+        "file": "assets/fonts/golos-text-cyrillic-ext-wght-normal.woff2",
+        "bytes": 17508,
+        "sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47"
+      },
+      {
+        "file": "assets/fonts/golos-text-cyrillic-wght-normal.woff2",
+        "bytes": 22032,
+        "sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229"
+      },
+      {
+        "file": "assets/fonts/golos-text-latin-wght-normal.woff2",
+        "bytes": 37916,
+        "sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a"
+      },
+      {
+        "file": "assets/fonts/manrope-cyrillic-ext-wght-normal.woff2",
+        "bytes": 2552,
+        "sha256": "de37de877dc17e4577341fa68bb5cb526b53d54cb29721e674208546a3c7849d"
+      },
+      {
+        "file": "assets/fonts/manrope-cyrillic-wght-normal.woff2",
+        "bytes": 14500,
+        "sha256": "c268b459a9329e59fecf39a17618efd44c71735532048d60b12aab76a8c14914"
+      },
+      {
+        "file": "assets/fonts/manrope-latin-wght-normal.woff2",
+        "bytes": 24836,
+        "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+      },
+      {
+        "file": "assets/fonts/OFL.txt",
+        "bytes": 4392,
+        "sha256": "54dcae300688bccf111e43c818a6ee2261d10fc8d7eb5b9c9aa2a1e9b03189c9"
+      },
+      {
+        "file": "assets/og-image.png",
+        "bytes": 178520,
+        "sha256": "2a95828b59dea09f89c7b1418248a3f6ce98ce0709262ee6953463eaa8a95113"
+      },
+      {
+        "file": "css/styles.css",
+        "bytes": 21842,
+        "sha256": "45d39b7405f803872d868b60232cce9ba5216b786b06745de79fff5ed72f707f"
+      },
+      {
+        "file": "i18n/kk.js",
+        "bytes": 4544,
+        "sha256": "c7f05fe210f8f533e90d996149fbe062927059580939552fdc00ae1464a5ae9e"
+      },
+      {
+        "file": "i18n/ru.js",
+        "bytes": 4393,
+        "sha256": "8f9e9711b92098be07a0eb35a66884cf6010a52401f605e74062d21905a3ede0"
+      },
+      {
+        "file": "index.html",
+        "bytes": 17495,
+        "sha256": "99805346ddda76f81a08576ff5efbe283a010291989c49be4895a3ca08122220"
+      },
+      {
+        "file": "js/app.js",
+        "bytes": 7329,
+        "sha256": "73d39f4e0204879e71ffc2084dcf8fdec318a0838f7ae4531fff60d0c83ce343"
+      },
+      {
+        "file": "js/cursor.js",
+        "bytes": 3089,
+        "sha256": "e268814deb7739a7d71c2d04e665f564b704d90b834b3fe1532c72c6ce26404f"
+      },
+      {
+        "file": "js/network.js",
+        "bytes": 11920,
+        "sha256": "2f8afc76620b1500c76e8a21f463c482c9a5c07cb58181a56f4d88b02a75dde9"
+      },
+      {
+        "file": "robots.txt",
+        "bytes": 26,
+        "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+      },
+      {
+        "file": "ru/index.html",
+        "bytes": 17270,
+        "sha256": "84fd63c038f4b731a8e3f44ec59fc9eccbe6562662900fa9d2b2e684e44baee4"
+      },
+      {
+        "file": "site.config.js",
+        "bytes": 149,
+        "sha256": "20f66ba666b030c46090b5591e844014e58822f61f3a74ad11cd5af7f1e1e26a"
+      },
+      {
+        "file": "sitemap.xml",
+        "bytes": 152,
+        "sha256": "7e69c4eb1b1422173488cc277e2e65340c5b0cba0840f463020ed16c1832673d"
+      }
+    ]
+  }
+}
