@@ -46,7 +46,7 @@ test('order, header and final CTA have distinct localized labels and four contac
   await expect(page.locator('.header-actions>.button')).toHaveText('WhatsApp-қа жазу');
   await expect(page.locator('.contact-cta')).toHaveText('WhatsApp арқылы байланысу');
   await expect(page.locator('.contact-detail')).toHaveCount(4);
-  await expect(page.locator('[data-website]')).toHaveCount(0);
+  await expect(page.locator('[data-website]')).toHaveAttribute('href', 'https://dizzitech.github.io/');
   await page.locator('[data-language=ru]').click();
   await expect(page.locator('.button-order')).toHaveText('Заказать сайт');
   await expect(page.locator('.header-actions>.button')).toHaveText('Написать в WhatsApp');

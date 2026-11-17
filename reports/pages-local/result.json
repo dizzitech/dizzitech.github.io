@@ -1,0 +1,213 @@
+{
+  "origin": "http://127.0.0.1:34939/",
+  "staticFiles": [
+    {
+      "file": "404.html",
+      "sha256": "6c0b0fdb6db4da72ff63a5fcf36f5e22d38f8edebfe6619179cbd6e98120c155"
+    },
+    {
+      "file": "index.html",
+      "sha256": "22a8b3e6d2d64d3c55031e6ef05621148992676384f3c6fc8d7910af1d3de596"
+    },
+    {
+      "file": "robots.txt",
+      "sha256": "7cddcf768dd5225feccfe0a70df42213d0fa323e158b403ab50f1195d8ab712d"
+    },
+    {
+      "file": "site.config.js",
+      "sha256": "8044cfa8bf7a3f68aedf553a5b0af5b3b3531d32d2ca0aac90becc3fc0bd9f32"
+    },
+    {
+      "file": "sitemap.xml",
+      "sha256": "e2de4c2117e92974a089781a3c89dac1553e10c3eca735e7afab4ddd86d09d47"
+    },
+    {
+      "file": "ru/index.html",
+      "sha256": "85526798fe29943a33de6bf88be4be6c2122f971cd61b152982b269498c79bc7"
+    },
+    {
+      "file": "js/app.js",
+      "sha256": "73d39f4e0204879e71ffc2084dcf8fdec318a0838f7ae4531fff60d0c83ce343"
+    },
+    {
+      "file": "js/cursor.js",
+      "sha256": "e268814deb7739a7d71c2d04e665f564b704d90b834b3fe1532c72c6ce26404f"
+    },
+    {
+      "file": "js/network.js",
+      "sha256": "2f8afc76620b1500c76e8a21f463c482c9a5c07cb58181a56f4d88b02a75dde9"
+    },
+    {
+      "file": "i18n/kk.js",
+      "sha256": "c7f05fe210f8f533e90d996149fbe062927059580939552fdc00ae1464a5ae9e"
+    },
+    {
+      "file": "i18n/ru.js",
+      "sha256": "8f9e9711b92098be07a0eb35a66884cf6010a52401f605e74062d21905a3ede0"
+    },
+    {
+      "file": "css/styles.css",
+      "sha256": "45d39b7405f803872d868b60232cce9ba5216b786b06745de79fff5ed72f707f"
+    },
+    {
+      "file": "assets/favicon.svg",
+      "sha256": "58e5613f97cd46ee108dc87617a1b01e42fa85cc5d17e924ab1ade81264e9c12"
+    },
+    {
+      "file": "assets/og-image.png",
+      "sha256": "2a95828b59dea09f89c7b1418248a3f6ce98ce0709262ee6953463eaa8a95113"
+    },
+    {
+      "file": "assets/fonts/golos-text-cyrillic-ext-wght-normal.woff2",
+      "sha256": "70cf502d77aa23c8a573db8853f20a8db705d18414d170f257a9e939113aad47"
+    },
+    {
+      "file": "assets/fonts/golos-text-cyrillic-wght-normal.woff2",
+      "sha256": "17d048ca05cb1218af3c0d6dcdf882989e6d1cc5dcb598ea50eaf54850ff7229"
+    },
+    {
+      "file": "assets/fonts/golos-text-latin-wght-normal.woff2",
+      "sha256": "9a69d0aa4734c4022224c002a3d944a702e0204972a49d892789f5668b922c2a"
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "sha256": "54dcae300688bccf111e43c818a6ee2261d10fc8d7eb5b9c9aa2a1e9b03189c9"
+    }
+  ],
+  "layouts": [
+    {
+      "lang": "kk",
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 3162,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 3043,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 375,
+      "scrollWidth": 375,
+      "height": 2905,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 375,
+      "scrollWidth": 375,
+      "height": 2888,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2881,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2787,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1715,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1674,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1576,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1569,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "height": 1558,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "height": 1507,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1520,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1520,
+      "overflow": []
+    },
+    {
+      "lang": "kk",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "height": 1521,
+      "overflow": []
+    },
+    {
+      "lang": "ru",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "height": 1521,
+      "overflow": []
+    }
+  ],
+  "interactions": [
+    {
+      "lang": "kk",
+      "canvasAuto": true,
+      "drag": true,
+      "pause": true,
+      "cursor": true,
+      "reveals": true,
+      "hover": true
+    },
+    {
+      "lang": "ru",
+      "canvasAuto": true,
+      "drag": true,
+      "pause": true,
+      "cursor": true,
+      "reveals": true,
+      "hover": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

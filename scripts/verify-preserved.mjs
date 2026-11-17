@@ -1,44 +1,37 @@
 import { createHash } from 'node:crypto';
 import { readFile, readdir, writeFile } from 'node:fs/promises';
-import { spawnSync } from 'node:child_process';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import { root } from './build.mjs';
+import { root, build, validateConfig } from './build.mjs';
+import config from '../site.config.mjs';
 
-const sha = async file => createHash('sha256').update(await readFile(path.join(root, file))).digest('hex');
-const files = ['src/js/network.js', 'src/js/cursor.js', 'src/i18n/kk.js', 'src/i18n/ru.js', 'site.config.mjs', '.github/workflows/pages.yml'];
+// The clean, synchronized main commit before the Pages-only fix.
+const baselineCommit = 'bb99c11cd03c7f44e275c409949503e68f34d751';
+const digest = value => createHash('sha256').update(value).digest('hex');
 const preservation = [];
+const files = ['src/template.html','src/css/styles.css','src/js/app.js','src/js/network.js','src/js/cursor.js','src/i18n/kk.js','src/i18n/ru.js','public/assets/favicon.svg','public/assets/og-image.png'];
 for (const file of files) {
-  const before = await sha(`versions/1.3/DiziTech-1.3/${file}`), after = await sha(file);
-  assert.equal(after, before, `Unexpected change: ${file}`);
-  preservation.push({ file, sha256: after, identicalTo13: true });
+  const previous = execFileSync('git', ['show', `${baselineCommit}:${file}`], { cwd: root });
+  const current = await readFile(path.join(root, file));
+  assert.equal(digest(current), digest(previous), `Unexpected presentation change: ${file}`);
+  preservation.push({ file, sha256: digest(current), identicalToBaseline: true });
 }
-const archiveSha256 = await sha('artifacts/DiziTech-1.3.zip');
-assert.equal(archiveSha256, 'fa1e447cba4d7d96771b14ce8c6510052c21f2671873779ecd5ee5407c311c35');
-const oldTemplate = await readFile(path.join(root, 'versions/1.3/DiziTech-1.3/src/template.html'), 'utf8');
-const newTemplate = await readFile(path.join(root, 'src/template.html'), 'utf8');
-for (const expression of [/<svg class="svg-definitions"[\s\S]*?<\/defs><\/svg>/, /<main id="main"[\s\S]*?<\/main>/, /<a class="brand"[\s\S]*?<\/a>/]) assert.equal(newTemplate.match(expression)?.[0], oldTemplate.match(expression)?.[0]);
-const oldCss = await readFile(path.join(root, 'versions/1.3/DiziTech-1.3/src/css/styles.css'), 'utf8');
-const newCss = await readFile(path.join(root, 'src/css/styles.css'), 'utf8');
-const canvasColors = ['ink','blue','blue-dark','surface','blue-wash'];
-for (const variable of canvasColors) {
-  const expression = new RegExp(`--${variable}:\\s*([^;]+);`);
-  assert.equal(newCss.match(expression)?.[1], oldCss.match(expression)?.[1], `Canvas ${variable} changed`);
-}
+assert.deepEqual(validateConfig(config, true), []);
+assert(!config.whatsapp && !config.phone && !config.email, 'No fabricated contacts');
 const inventory = async (directory, prefix = '') => {
   const result = [];
   for (const entry of await readdir(path.join(root, directory), { withFileTypes: true })) {
     const file = `${directory}/${entry.name}`, name = `${prefix}${entry.name}`;
     if (entry.isDirectory()) result.push(...await inventory(file, `${name}/`));
-    else result.push({ file: name, bytes: (await readFile(path.join(root, file))).length, sha256: await sha(file) });
+    else { const bytes = await readFile(path.join(root, file)); result.push({ file: name, bytes: bytes.length, sha256: digest(bytes) }); }
   }
-  return result.sort((a, b) => a.file.localeCompare(b.file));
+  return result.sort((a,b) => a.file.localeCompare(b.file));
 };
-const before = await inventory('dist');
-const release = spawnSync(process.execPath, ['scripts/build.mjs', '--release'], { cwd: root, encoding: 'utf8' });
-assert.equal(release.status, 1);
-for (const key of ['whatsapp', 'phone', 'email', 'siteUrl', 'githubAccount', 'githubRepository']) assert(release.stderr.includes(`${key}: required for release`));
-assert.deepEqual(await inventory('dist'), before, 'Failed release modified the preview output');
-const report = { version: '1.4', baselineArchive: 'artifacts/DiziTech-1.3.zip', archiveSha256, preservation, mainMarkupUnchanged: true, svgDefinitionsUnchanged: true, logoMarkupUnchanged: true, canvasColorsUnchanged: canvasColors, releasePreflight: { exitCode: release.status, stderr: release.stderr.trim(), previewUnchanged: true }, build: { files: before.length, bytes: before.reduce((sum, f) => sum + f.bytes, 0), inventory: before } };
+const before = await inventory('docs');
+await assert.rejects(() => build({ release: true, config: { ...config, siteUrl: '' }, outDir: path.join(root, 'docs') }), /siteUrl: required for release/);
+assert.deepEqual(await inventory('docs'), before, 'Invalid hosting settings modified docs');
+for (const item of before.filter(item => /^(css|js|i18n)\//.test(item.file))) assert.equal(item.sha256, digest(await readFile(path.join(root, 'src', item.file))));
+const report = { baselineCommit, preservation, optionalContacts: true, releaseValidationPassed: true, invalidHostingCannotModifyOutput: true, build: { directory: 'docs', files: before.length, bytes: before.reduce((sum,item) => sum + item.bytes, 0), inventory: before } };
 await writeFile(path.join(root, 'reports/preservation.json'), JSON.stringify(report, null, 2));
-console.log(JSON.stringify({ unchanged: files.length, archiveSha256, releaseBlocked: true, previewUnchanged: true, buildFiles: report.build.files, buildBytes: report.build.bytes }, null, 2));
+console.log(JSON.stringify({ unchangedPresentationFiles: preservation.length, buildFiles: before.length, buildBytes: report.build.bytes, optionalContacts: true }));

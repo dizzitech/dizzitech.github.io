@@ -192,9 +192,10 @@ test('automated accessibility: both languages, desktop + mobile and open dialog'
   await mkdir('reports', { recursive: true }); await writeFile('reports/axe.json', JSON.stringify(results, null, 2));
 });
 
-test('release preflight rejects missing contacts, invalid numbers and repository mismatch', async () => {
+test('release permits missing contacts, requires hosting details and validates supplied values', async () => {
   const errors = validateConfig(config, true);
-  expect(errors).toHaveLength(6);
+  expect(errors).toEqual([]);
+  expect(validateConfig({ ...config, siteUrl: '', githubAccount: '', githubRepository: '' }, true)).toHaveLength(3);
   expect(validateConfig({ ...config, whatsapp: '+0broken' })).toHaveLength(1);
   expect(validateConfig({ ...config, email: 'broken' })).toHaveLength(1);
   expect(validateConfig({ ...config, siteUrl: 'https://example.com/' })).toHaveLength(1);
