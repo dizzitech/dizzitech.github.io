@@ -46,6 +46,14 @@ test('two phone rows fit all eight widths in both languages, with accessible ico
       await expect(page.locator('#contacts h2')).toHaveText(d.contacts);
       await expect(page.locator('#contacts h2')).toHaveCount(1);
       await expect(page.locator('.contact-phone')).toHaveCount(2);
+      expect(await page.locator('.contact-details>.contact-detail').evaluateAll(elements => elements.map(el =>
+        el.querySelector('[data-website]') ? 'site' : el.querySelector('[href^="mailto:"]') ? 'email' : 'phones'
+      ))).toEqual(['site', 'email', 'phones']);
+      await expect(page.locator('.button-whatsapp')).toHaveCSS('background-color', 'rgb(255, 255, 255)');
+      await expect(page.locator('.button-whatsapp')).toHaveCSS('border-color', 'rgb(20, 125, 61)');
+      await expect(page.locator('.button-whatsapp')).toHaveCSS('border-width', '1px');
+      await expect(page.locator('.button-whatsapp')).toHaveCSS('color', 'rgb(20, 125, 61)');
+      await expect(page.locator('.button-whatsapp svg')).toHaveCSS('color', 'rgb(20, 125, 61)');
       await expect(page.locator('.contact-phone svg')).toHaveCount(4);
       await expect(page.locator('.contact-cta, .contact-unset, .preview-notice, a a')).toHaveCount(0);
       await expect(page.locator('.contact-phone').first()).toHaveAccessibleName(/\+7 \(775\) 398-00-88.*WhatsApp/);
@@ -122,7 +130,7 @@ test('segmented switch moves in 200ms, supports keyboard and disables animation 
   await page.locator('[data-language=kk]').click();
   expect((await segmentStyle()).transform).toBe('none');
   await page.locator('.button-whatsapp').hover();
-  await expect(page.locator('.button-whatsapp')).toHaveCSS('background-color', 'rgb(32, 195, 92)');
+  await expect(page.locator('.button-whatsapp')).toHaveCSS('background-color', 'rgb(240, 255, 244)');
 });
 
 test('no JavaScript retains two localized numbers and the active segment on direct routes', async ({ browser }) => {

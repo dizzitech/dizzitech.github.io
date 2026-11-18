@@ -79,9 +79,9 @@ export async function build({ release = false, config: providedConfig, outDir = 
       .filter(([key]) => publicConfig[key])
       .map(([key, slot]) => `<a class="contact-link contact-phone" href="${escape(whatsappUrl(publicConfig[key], d.whatsappMessage))}" data-whatsapp="${slot}" target="_blank" rel="noopener noreferrer">${icon('i-phone')}<span>${escape(formatWhatsApp(publicConfig[key]))}</span><span class="contact-whatsapp">${icon('i-whatsapp')}<span class="sr-only">WhatsApp</span></span></a>`).join('');
     const contactDetails = [
-      phoneRows ? `<div class="contact-detail contact-phones">${phoneRows}</div>` : '',
-      config.email ? `<div class="contact-detail"><a class="contact-link" href="mailto:${escape(config.email)}">${icon('i-mail')}<span><span class="sr-only" ${label('emailLabel')}</span><span class="sr-only">: </span>${escape(config.email)}</span></a></div>` : '',
       config.siteUrl ? `<div class="contact-detail"><a class="contact-link" href="${escape(config.siteUrl)}" data-website>${icon('i-globe')}<span><span class="sr-only" ${label('websiteLabel')}</span><span class="sr-only">: </span>${escape(config.siteUrl.replace(/^https:\/\//, '').replace(/\/$/, ''))}</span></a></div>` : '',
+      config.email ? `<div class="contact-detail"><a class="contact-link" href="mailto:${escape(config.email)}">${icon('i-mail')}<span><span class="sr-only" ${label('emailLabel')}</span><span class="sr-only">: </span>${escape(config.email)}</span></a></div>` : '',
+      phoneRows ? `<div class="contact-detail contact-phones">${phoneRows}</div>` : '',
     ].filter(Boolean).join('\n');
     const previewNotice = hasAnyWhatsApp ? '' : `<p class="preview-notice"><span aria-hidden="true"></span><strong data-i18n="dialogTitle">${escape(d.dialogTitle)}</strong></p>`;
     const pageUrl = publishedUrl ? new URL(lang === 'ru' ? 'ru/' : './', config.siteUrl).href : '';

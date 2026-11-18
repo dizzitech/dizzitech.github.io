@@ -38,7 +38,7 @@
   "build": {
     "directory": "docs",
     "files": 23,
-    "bytes": 372295,
+    "bytes": 373912,
     "inventory": [
       {
         "file": ".nojekyll",
@@ -97,8 +97,8 @@
       },
       {
         "file": "css/styles.css",
-        "bytes": 23020,
-        "sha256": "64b3a89babdbbd325a87cc77e21bbf0b6f9911ae03f747bf80c9b9d477495578"
+        "bytes": 23140,
+        "sha256": "d8d7620ece0971a2a7abf91cb98b2578ce76e928f5f4ebfbdf3ebeab263f1b8f"
       },
       {
         "file": "i18n/kk.js",
@@ -112,8 +112,8 @@
       },
       {
         "file": "index.html",
-        "bytes": 23628,
-        "sha256": "13c07e86e65296a7ed1018a72a2d6051b194a71685eb3fee9be1cdee96fc993c"
+        "bytes": 24407,
+        "sha256": "9099c0e23aeb122ac83acee0966ffc172f2bbedd1a478fe0eda2e41fb96dfb44"
       },
       {
         "file": "js/app.js",
@@ -142,13 +142,13 @@
       },
       {
         "file": "ru/index.html",
-        "bytes": 22813,
-        "sha256": "ea82051a776086b05bafed77b7ed6ac8e64e87b2647397c5d11b26dbe585f94e"
+        "bytes": 23520,
+        "sha256": "8f7813b687c6695d4e29e889ae72b42f71ffe90bdf4156802315b43db2cc9c37"
       },
       {
         "file": "site.config.js",
-        "bytes": 246,
-        "sha256": "1f0deb91228762e02f37452cb19c3cafddeb4db438ee1ee9e71956963f4326cc"
+        "bytes": 257,
+        "sha256": "9cd0997093de156077e096149d7aecac50da675efc446db3e40bba06b4cdeb9f"
       },
       {
         "file": "sitemap.xml",

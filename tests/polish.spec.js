@@ -39,7 +39,7 @@ test('explicit text palette has no page filters or text opacity, and all six SVG
   await page.emulateMedia({ reducedMotion: 'reduce' });
   for (const lang of ['kk','ru']) {
     await page.goto(lang === 'ru' ? '/ru/' : '/');
-    const colors = { body: 'rgb(17, 17, 17)', '#services h2': 'rgb(11, 15, 25)', '.service-card h3': 'rgb(11, 15, 25)', '.service-card p': 'rgb(36, 36, 36)', '.timeline-step p': 'rgb(36, 36, 36)', '.step-number': 'rgb(51, 51, 51)', '.network-hint': 'rgb(51, 51, 51)', '.text-accent': 'rgb(255, 255, 255)', '.hero-description': 'rgb(255, 255, 255)', '#contacts h2': 'rgb(255, 255, 255)', '.contact-link': 'rgb(255, 255, 255)', '.header-actions>.button': 'rgb(7, 59, 36)' };
+    const colors = { body: 'rgb(17, 17, 17)', '#services h2': 'rgb(11, 15, 25)', '.service-card h3': 'rgb(11, 15, 25)', '.service-card p': 'rgb(36, 36, 36)', '.timeline-step p': 'rgb(36, 36, 36)', '.step-number': 'rgb(51, 51, 51)', '.network-hint': 'rgb(51, 51, 51)', '.text-accent': 'rgb(255, 255, 255)', '.hero-description': 'rgb(255, 255, 255)', '#contacts h2': 'rgb(255, 255, 255)', '.contact-link': 'rgb(255, 255, 255)', '.header-actions>.button': 'rgb(20, 125, 61)' };
     for (const [selector, color] of Object.entries(colors)) {
       await expect(page.locator(selector).first()).toHaveCSS('color', color);
       expect(await page.locator(selector).first().evaluate(el => { while (el) { const c = getComputedStyle(el); if (c.opacity !== '1' || c.filter !== 'none' || c.backdropFilter !== 'none' || c.mixBlendMode !== 'normal') return false; el = el.parentElement; } return true; })).toBe(true);

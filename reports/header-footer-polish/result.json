@@ -1,0 +1,3796 @@
+{
+  "layouts": {
+    "320-kk": {
+      "height": 2960,
+      "scrollWidth": 320,
+      "sections": [
+        {
+          "height": 111,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 750.140625,
+          "paddingTop": "9px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 1137.6875,
+          "paddingTop": "29px",
+          "paddingBottom": "29px"
+        },
+        {
+          "height": 520.125,
+          "paddingTop": "0px",
+          "paddingBottom": "28px"
+        },
+        {
+          "height": 441.359375,
+          "paddingTop": "27px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "36px",
+          "39.6px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 288,
+        "height": 44,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 16,
+          "y": 2703.03125,
+          "bottom": 2747.03125
+        },
+        {
+          "x": 16,
+          "y": 2749.03125,
+          "bottom": 2793.03125
+        },
+        {
+          "x": 16,
+          "y": 2795.03125,
+          "bottom": 2883.03125
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "320-ru": {
+      "height": 2936,
+      "scrollWidth": 320,
+      "sections": [
+        {
+          "height": 111,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 750.140625,
+          "paddingTop": "9px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 1112.9375,
+          "paddingTop": "29px",
+          "paddingBottom": "29px"
+        },
+        {
+          "height": 520.125,
+          "paddingTop": "0px",
+          "paddingBottom": "28px"
+        },
+        {
+          "height": 441.359375,
+          "paddingTop": "27px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "36px",
+          "39.6px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "24.75px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 288,
+        "height": 44,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 16,
+          "y": 2678.28125,
+          "bottom": 2722.28125
+        },
+        {
+          "x": 16,
+          "y": 2724.28125,
+          "bottom": 2768.28125
+        },
+        {
+          "x": 16,
+          "y": 2770.28125,
+          "bottom": 2858.28125
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    },
+    "390-kk": {
+      "height": 2771,
+      "scrollWidth": 390,
+      "sections": [
+        {
+          "height": 111,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 759.671875,
+          "paddingTop": "9px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 986.53125,
+          "paddingTop": "29px",
+          "paddingBottom": "29px"
+        },
+        {
+          "height": 494.625,
+          "paddingTop": "0px",
+          "paddingBottom": "28px"
+        },
+        {
+          "height": 418.859375,
+          "paddingTop": "27px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "36px",
+          "39.6px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 358,
+        "height": 44,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 16,
+          "y": 2513.40625,
+          "bottom": 2557.40625
+        },
+        {
+          "x": 16,
+          "y": 2559.40625,
+          "bottom": 2603.40625
+        },
+        {
+          "x": 16,
+          "y": 2605.40625,
+          "bottom": 2693.40625
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "390-ru": {
+      "height": 2714,
+      "scrollWidth": 390,
+      "sections": [
+        {
+          "height": 111,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 759.671875,
+          "paddingTop": "9px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 945.8125,
+          "paddingTop": "29px",
+          "paddingBottom": "29px"
+        },
+        {
+          "height": 461.59375,
+          "paddingTop": "0px",
+          "paddingBottom": "28px"
+        },
+        {
+          "height": 435.578125,
+          "paddingTop": "27px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "36px",
+          "39.6px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 358,
+        "height": 44,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 16,
+          "y": 2466.65625,
+          "bottom": 2510.65625
+        },
+        {
+          "x": 16,
+          "y": 2512.65625,
+          "bottom": 2556.65625
+        },
+        {
+          "x": 16,
+          "y": 2558.65625,
+          "bottom": 2646.65625
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    },
+    "768-kk": {
+      "height": 1713,
+      "scrollWidth": 768,
+      "sections": [
+        {
+          "height": 77,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 425.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 588.53125,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 276.640625,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 345.359375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "34.56px",
+          "36.9792px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "27.2px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "27px",
+          "31.86px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 212.0625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 28,
+          "y": 1541.171875,
+          "bottom": 1585.171875
+        },
+        {
+          "x": 28,
+          "y": 1593.171875,
+          "bottom": 1637.171875
+        },
+        {
+          "x": 393,
+          "y": 1541.171875,
+          "bottom": 1629.171875
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "768-ru": {
+      "height": 1672,
+      "scrollWidth": 768,
+      "sections": [
+        {
+          "height": 77,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 425.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 573.25,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 251.140625,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 345.359375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "12px",
+          "18.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "34.56px",
+          "36.9792px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "27.2px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "25.2px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "27px",
+          "31.86px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 236.15625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 28,
+          "y": 1500.390625,
+          "bottom": 1544.390625
+        },
+        {
+          "x": 28,
+          "y": 1552.390625,
+          "bottom": 1596.390625
+        },
+        {
+          "x": 393,
+          "y": 1500.390625,
+          "bottom": 1588.390625
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    },
+    "1024-kk": {
+      "height": 1567,
+      "scrollWidth": 1024,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 440.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 457,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 252.5,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 337.359375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "43.008px",
+          "46.0186px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "27.2px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "27px",
+          "31.86px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 212.0625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 28,
+          "y": 1402.5,
+          "bottom": 1446.5
+        },
+        {
+          "x": 359,
+          "y": 1402.5,
+          "bottom": 1446.5
+        },
+        {
+          "x": 690,
+          "y": 1402.5,
+          "bottom": 1490.5
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "1024-ru": {
+      "height": 1559,
+      "scrollWidth": 1024,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 440.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 449.40625,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 252.5,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 337.359375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "43.008px",
+          "46.0186px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "27.2px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "28px",
+          "33.04px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "24.3px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "27px",
+          "31.86px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "31px",
+          "36.58px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 236.15625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 28,
+          "y": 1394.90625,
+          "bottom": 1438.90625
+        },
+        {
+          "x": 359,
+          "y": 1394.90625,
+          "bottom": 1438.90625
+        },
+        {
+          "x": 690,
+          "y": 1394.90625,
+          "bottom": 1482.90625
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    },
+    "1440-kk": {
+      "height": 1511,
+      "scrollWidth": 1440,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 460.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 415.078125,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 233.375,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 322.4375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "58px",
+          "62.06px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "28.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "38px",
+          "44.84px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "32.4px",
+          "38.232px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "42px",
+          "49.56px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 212.0625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 80,
+          "y": 1346.53125,
+          "bottom": 1390.53125
+        },
+        {
+          "x": 515,
+          "y": 1346.53125,
+          "bottom": 1390.53125
+        },
+        {
+          "x": 950,
+          "y": 1346.53125,
+          "bottom": 1434.53125
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "1440-ru": {
+      "height": 1511,
+      "scrollWidth": 1440,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 460.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 415.078125,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 233.375,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 322.4375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "58px",
+          "62.06px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "28.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "38px",
+          "44.84px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "32.4px",
+          "38.232px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "42px",
+          "49.56px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 236.15625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 80,
+          "y": 1346.53125,
+          "bottom": 1390.53125
+        },
+        {
+          "x": 515,
+          "y": 1346.53125,
+          "bottom": 1390.53125
+        },
+        {
+          "x": 950,
+          "y": 1346.53125,
+          "bottom": 1434.53125
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    },
+    "1920-kk": {
+      "height": 1511,
+      "scrollWidth": 1920,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 460.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 415.078125,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 234.078125,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 322.4375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "58px",
+          "62.06px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "28.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "38px",
+          "44.84px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "33px",
+          "38.94px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "42px",
+          "49.56px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 212.0625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 320,
+          "y": 1347.234375,
+          "bottom": 1391.234375
+        },
+        {
+          "x": 755,
+          "y": 1347.234375,
+          "bottom": 1391.234375
+        },
+        {
+          "x": 1190,
+          "y": 1347.234375,
+          "bottom": 1435.234375
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B.",
+        "https://wa.me/77472831545?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B6%D0%B0%D1%81%D0%B0%D1%83%D2%93%D0%B0%20%D1%82%D0%B0%D0%BF%D1%81%D1%8B%D1%80%D1%8B%D1%81%20%D0%B1%D0%B5%D1%80%D0%B3%D1%96%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96.%20%D0%96%D0%BE%D0%B1%D0%B0%D0%BD%D1%8B%20%D1%82%D0%B0%D0%BB%D2%9B%D1%8B%D0%BB%D0%B0%D0%B9%D1%8B%D2%9B."
+      ]
+    },
+    "1920-ru": {
+      "height": 1511,
+      "scrollWidth": 1920,
+      "sections": [
+        {
+          "height": 79,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 460.640625,
+          "paddingTop": "12px",
+          "paddingBottom": "0px"
+        },
+        {
+          "height": 415.078125,
+          "paddingTop": "34px",
+          "paddingBottom": "34px"
+        },
+        {
+          "height": 234.078125,
+          "paddingTop": "3px",
+          "paddingBottom": "33px"
+        },
+        {
+          "height": 322.4375,
+          "paddingTop": "31px",
+          "paddingBottom": "0px"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "22.4px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "58px",
+          "62.06px",
+          "700"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "28.8px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "26.6px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "14px",
+          "21.7px",
+          "500"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "38px",
+          "44.84px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "19px",
+          "25.65px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16.5px",
+          "25.575px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "33px",
+          "38.94px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "20px",
+          "27px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "25.5px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "42px",
+          "49.56px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "18px",
+          "27.9px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "16px",
+          "24px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "13px",
+          "20.15px",
+          "600"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "30px",
+          "35.4px",
+          "650"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "26.35px",
+          "400"
+        ],
+        [
+          "\"Golos Text\", \"Segoe UI\", sans-serif",
+          "17px",
+          "23.8px",
+          "600"
+        ]
+      ],
+      "button": {
+        "width": 236.15625,
+        "height": 46,
+        "radius": "7px"
+      },
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(20, 125, 61)",
+        "border": "rgb(20, 125, 61)",
+        "borderWidth": "1px",
+        "icon": "rgb(20, 125, 61)"
+      },
+      "order": [
+        "site",
+        "email",
+        "phones"
+      ],
+      "rects": [
+        {
+          "x": 320,
+          "y": 1347.234375,
+          "bottom": 1391.234375
+        },
+        {
+          "x": 755,
+          "y": 1347.234375,
+          "bottom": 1391.234375
+        },
+        {
+          "x": 1190,
+          "y": 1347.234375,
+          "bottom": 1435.234375
+        }
+      ],
+      "links": [
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://dizzitech.github.io/",
+        "mailto:dizzitech@gmail.com",
+        "https://wa.me/77753980088?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.",
+        "https://wa.me/77472831545?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%D1%82%D0%B5%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82."
+      ]
+    }
+  },
+  "hashes": {
+    "site.config.mjs": "036e6578fc76f92e4b0fb84ef9db5a80456d93d7a591a97a5b1eda17d374f32c",
+    "src/template.html": "cf2163204530b199d731497dfdc2fa23414308232cf0e3a0e479b1e962b22d09",
+    "src/js/app.js": "5b75c5a9e0c01b211c0d19e07374a527c0b176e7fdb868870139e4eaee69ce6e",
+    "src/js/network.js": "2f8afc76620b1500c76e8a21f463c482c9a5c07cb58181a56f4d88b02a75dde9",
+    "src/js/cursor.js": "e268814deb7739a7d71c2d04e665f564b704d90b834b3fe1532c72c6ce26404f",
+    "src/js/contacts.js": "52574795a3f8c6dcb70e88d5a2da71706d4c12095455cd1210f121b077473d7e",
+    "src/i18n/kk.js": "c7f05fe210f8f533e90d996149fbe062927059580939552fdc00ae1464a5ae9e",
+    "src/i18n/ru.js": "8f9e9711b92098be07a0eb35a66884cf6010a52401f605e74062d21905a3ede0",
+    "public/assets/whatsapp.svg": "8fb209a53a61618c3483594b3e070481a35575d6aaecbe00a6fe386670c8fb1c"
+  },
+  "passed": true
+}
