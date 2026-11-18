@@ -1,5 +1,5 @@
 {
-  "origin": "http://127.0.0.1:34939/",
+  "origin": "http://127.0.0.1:34361/",
   "staticFiles": [
     {
       "file": "404.html",
@@ -7,7 +7,7 @@
     },
     {
       "file": "index.html",
-      "sha256": "22a8b3e6d2d64d3c55031e6ef05621148992676384f3c6fc8d7910af1d3de596"
+      "sha256": "13c07e86e65296a7ed1018a72a2d6051b194a71685eb3fee9be1cdee96fc993c"
     },
     {
       "file": "robots.txt",
@@ -15,7 +15,7 @@
     },
     {
       "file": "site.config.js",
-      "sha256": "8044cfa8bf7a3f68aedf553a5b0af5b3b3531d32d2ca0aac90becc3fc0bd9f32"
+      "sha256": "1f0deb91228762e02f37452cb19c3cafddeb4db438ee1ee9e71956963f4326cc"
     },
     {
       "file": "sitemap.xml",
@@ -23,11 +23,15 @@
     },
     {
       "file": "ru/index.html",
-      "sha256": "85526798fe29943a33de6bf88be4be6c2122f971cd61b152982b269498c79bc7"
+      "sha256": "ea82051a776086b05bafed77b7ed6ac8e64e87b2647397c5d11b26dbe585f94e"
     },
     {
       "file": "js/app.js",
-      "sha256": "73d39f4e0204879e71ffc2084dcf8fdec318a0838f7ae4531fff60d0c83ce343"
+      "sha256": "5b75c5a9e0c01b211c0d19e07374a527c0b176e7fdb868870139e4eaee69ce6e"
+    },
+    {
+      "file": "js/contacts.js",
+      "sha256": "52574795a3f8c6dcb70e88d5a2da71706d4c12095455cd1210f121b077473d7e"
     },
     {
       "file": "js/cursor.js",
@@ -47,7 +51,7 @@
     },
     {
       "file": "css/styles.css",
-      "sha256": "45d39b7405f803872d868b60232cce9ba5216b786b06745de79fff5ed72f707f"
+      "sha256": "64b3a89babdbbd325a87cc77e21bbf0b6f9911ae03f747bf80c9b9d477495578"
     },
     {
       "file": "assets/favicon.svg",
@@ -56,6 +60,18 @@
     {
       "file": "assets/og-image.png",
       "sha256": "2a95828b59dea09f89c7b1418248a3f6ce98ce0709262ee6953463eaa8a95113"
+    },
+    {
+      "file": "assets/SIMPLE-ICONS-LICENSE.txt",
+      "sha256": "9046848b63a5c92bff14e4accca80bd987e0623b74adf9226ce5198d312b79d5"
+    },
+    {
+      "file": "assets/THIRD-PARTY-NOTICES.txt",
+      "sha256": "13eb4bc8b8671c938ded8ed9b0591b4b9c0844ff8dcda6bf868462e2032c0265"
+    },
+    {
+      "file": "assets/whatsapp.svg",
+      "sha256": "8fb209a53a61618c3483594b3e070481a35575d6aaecbe00a6fe386670c8fb1c"
     },
     {
       "file": "assets/fonts/golos-text-cyrillic-ext-wght-normal.woff2",
@@ -79,112 +95,112 @@
       "lang": "kk",
       "width": 320,
       "scrollWidth": 320,
-      "height": 3162,
+      "height": 2916,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 320,
       "scrollWidth": 320,
-      "height": 3043,
+      "height": 2892,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 375,
       "scrollWidth": 375,
-      "height": 2905,
+      "height": 2752,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 375,
       "scrollWidth": 375,
-      "height": 2888,
+      "height": 2771,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 390,
       "scrollWidth": 390,
-      "height": 2881,
+      "height": 2727,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 390,
       "scrollWidth": 390,
-      "height": 2787,
+      "height": 2670,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 768,
       "scrollWidth": 768,
-      "height": 1715,
+      "height": 1713,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 768,
       "scrollWidth": 768,
-      "height": 1674,
+      "height": 1672,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 1024,
       "scrollWidth": 1024,
-      "height": 1576,
+      "height": 1523,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 1024,
       "scrollWidth": 1024,
-      "height": 1569,
+      "height": 1515,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 1280,
       "scrollWidth": 1280,
-      "height": 1558,
+      "height": 1504,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 1280,
       "scrollWidth": 1280,
-      "height": 1507,
+      "height": 1453,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 1440,
       "scrollWidth": 1440,
-      "height": 1520,
+      "height": 1467,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 1440,
       "scrollWidth": 1440,
-      "height": 1520,
+      "height": 1467,
       "overflow": []
     },
     {
       "lang": "kk",
       "width": 1920,
       "scrollWidth": 1920,
-      "height": 1521,
+      "height": 1467,
       "overflow": []
     },
     {
       "lang": "ru",
       "width": 1920,
       "scrollWidth": 1920,
-      "height": 1521,
+      "height": 1467,
       "overflow": []
     }
   ],

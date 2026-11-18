@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 
-test('1.4 retains 1.3 text sizes and exact page height with a simplified header', async ({ page }) => {
+test('retains main section sizes and compact page height with a simplified header', async ({ page }) => {
   const baseline = JSON.parse(await readFile(new URL('./fixtures/v1.3-layout.json', import.meta.url), 'utf8'));
   await page.emulateMedia({ reducedMotion: 'reduce' });
   for (const width of [320, 375, 390, 768, 1024, 1280, 1440, 1920]) {
@@ -20,8 +20,10 @@ test('1.4 retains 1.3 text sizes and exact page height with a simplified header'
           const box = card.getBoundingClientRect();
           return { artWidth: art.width, contained: art.left >= box.left && art.right <= title.left && art.bottom <= text.top + 1 && art.top >= box.top && text.bottom <= box.bottom };
         }),
-      }), ['h1','h2','.hero-description','.service-card h3','.service-card p','.timeline-step p','.hero-actions .button','.contact-unset']);
-      expect(current.height, `${width}/${lang} unchanged height`).toBe(before.height);
+        sections: [...document.querySelectorAll('main>section')].slice(0, 3).map(el => Math.round(el.getBoundingClientRect().height)),
+      }), ['h1','h2','.hero-description','.service-card h3','.service-card p','.timeline-step p','.hero-actions .button']);
+      expect(current.sections, `${width}/${lang} main sections unchanged`).toEqual(before.sections.slice(0, 3).map(s => s.height));
+      expect(current.height, `${width}/${lang} compact height`).toBeLessThanOrEqual(before.height + 50);
       expect(current.width).toBe(width);
       for (const [selector, size] of Object.entries(current.fonts)) expect(size, `${width}/${lang} ${selector}`).toBe(before.fonts[selector].size);
       await expect(page.locator('header nav, .menu-toggle, header a[href="#services"], header a[href="#process"]')).toHaveCount(0);
@@ -37,7 +39,7 @@ test('explicit text palette has no page filters or text opacity, and all six SVG
   await page.emulateMedia({ reducedMotion: 'reduce' });
   for (const lang of ['kk','ru']) {
     await page.goto(lang === 'ru' ? '/ru/' : '/');
-    const colors = { body: 'rgb(17, 17, 17)', '#services h2': 'rgb(11, 15, 25)', '.service-card h3': 'rgb(11, 15, 25)', '.service-card p': 'rgb(36, 36, 36)', '.timeline-step p': 'rgb(36, 36, 36)', '.step-number': 'rgb(51, 51, 51)', '.network-hint': 'rgb(51, 51, 51)', '.text-accent': 'rgb(255, 255, 255)', '.hero-description': 'rgb(255, 255, 255)', '#contacts h2': 'rgb(255, 255, 255)', '.contact-unset': 'rgb(255, 255, 255)', '.header-actions>.button': 'rgb(21, 94, 239)' };
+    const colors = { body: 'rgb(17, 17, 17)', '#services h2': 'rgb(11, 15, 25)', '.service-card h3': 'rgb(11, 15, 25)', '.service-card p': 'rgb(36, 36, 36)', '.timeline-step p': 'rgb(36, 36, 36)', '.step-number': 'rgb(51, 51, 51)', '.network-hint': 'rgb(51, 51, 51)', '.text-accent': 'rgb(255, 255, 255)', '.hero-description': 'rgb(255, 255, 255)', '#contacts h2': 'rgb(255, 255, 255)', '.contact-link': 'rgb(255, 255, 255)', '.header-actions>.button': 'rgb(7, 59, 36)' };
     for (const [selector, color] of Object.entries(colors)) {
       await expect(page.locator(selector).first()).toHaveCSS('color', color);
       expect(await page.locator(selector).first().evaluate(el => { while (el) { const c = getComputedStyle(el); if (c.opacity !== '1' || c.filter !== 'none' || c.backdropFilter !== 'none' || c.mixBlendMode !== 'normal') return false; el = el.parentElement; } return true; })).toBe(true);

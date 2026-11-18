@@ -8,6 +8,8 @@ import { serve } from './serve.mjs';
 import { root } from './build.mjs';
 import kk from '../src/i18n/kk.js';
 import ru from '../src/i18n/ru.js';
+import config from '../site.config.mjs';
+import { normalizeWhatsApp } from '../src/js/contacts.js';
 
 const remote = process.argv.includes('--url');
 let server;
@@ -50,7 +52,17 @@ try {
     assert.equal(await page.locator('main>section').count(), 4);
     assert.equal(await page.locator('.service-art').count(), 6);
     assert.equal(await page.locator('header nav,.menu-toggle').count(), 0);
-    assert.equal(await page.locator('a[href^="https://wa.me/"],a[href^="tel:"],a[href^="mailto:"]').count(), 0);
+    assert.equal(await page.locator('.contact-phone').count(), [config.whatsapp, config.whatsappSecondary].filter(normalizeWhatsApp).length);
+    assert.equal(await page.locator('.contact-cta, a a').count(), 0);
+    if (config.email) assert.equal(await page.locator('a[href^="mailto:"]').getAttribute('href'), `mailto:${config.email}`);
+    if (config.siteUrl) assert.equal(await page.locator('[data-website]').getAttribute('href'), config.siteUrl);
+    for (const link of await page.locator('[data-whatsapp]').all()) {
+      const key = await link.getAttribute('data-whatsapp');
+      const href = new URL(await link.getAttribute('href'));
+      assert.equal(href.origin, 'https://wa.me');
+      assert.equal(href.pathname, `/${normalizeWhatsApp(key === 'secondary' ? config.whatsappSecondary : config.whatsapp)}`);
+      assert.equal(href.searchParams.get('text'), d.whatsappMessage);
+    }
     assert.equal(await page.locator('meta[name=robots]').getAttribute('content'), 'index, follow');
     assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'), `https://dizzitech.github.io/${lang === 'ru' ? 'ru/' : ''}`);
     const layout = await page.evaluate(() => ({
@@ -59,11 +71,12 @@ try {
     }));
     assert.equal(layout.scrollWidth, width); assert.deepEqual(layout.overflow, []);
     for (const id of ['services','process','contacts']) await page.locator(`#${id}`).scrollIntoViewIfNeeded();
-    assert.equal(await page.locator('.preview-notice').innerText(), d.dialogTitle);
-    await page.locator('.header-actions>.button').click();
-    await page.locator('dialog[open]').waitFor();
-    assert.equal(await page.locator('#dialog-title').innerText(), d.dialogTitle);
-    await page.keyboard.press('Escape');
+    if (!normalizeWhatsApp(config.whatsapp) && !normalizeWhatsApp(config.whatsappSecondary)) {
+      await page.locator('.header-actions>.button').click();
+      await page.locator('dialog[open]').waitFor();
+      assert.equal(await page.locator('#dialog-title').innerText(), d.dialogTitle);
+      await page.keyboard.press('Escape');
+    }
     const opposite = lang === 'kk' ? 'ru' : 'kk';
     await page.locator(`[data-language=${opposite}]`).click();
     assert.equal(await page.locator('html').getAttribute('lang'), opposite);

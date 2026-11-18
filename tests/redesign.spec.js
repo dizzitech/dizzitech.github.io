@@ -40,16 +40,17 @@ test('Kazakh, Russian and Latin glyphs actually render in the local Golos font',
   await mkdir('reports', { recursive: true }); await writeFile('reports/font-coverage.json', JSON.stringify(result, null, 2));
 });
 
-test('order, header and final CTA have distinct localized labels and four contact fields', async ({ page }) => {
+test('order and header keep localized labels; compact contacts replace the final CTA', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('.button-order')).toHaveText('Тапсырыс беру');
   await expect(page.locator('.header-actions>.button')).toHaveText('WhatsApp-қа жазу');
-  await expect(page.locator('.contact-cta')).toHaveText('WhatsApp арқылы байланысу');
-  await expect(page.locator('.contact-detail')).toHaveCount(4);
+  await expect(page.locator('.contact-cta')).toHaveCount(0);
+  await expect(page.locator('#contacts h2')).toHaveText('Байланыс');
+  await expect(page.locator('.contact-detail')).toHaveCount(3);
   await expect(page.locator('[data-website]')).toHaveAttribute('href', 'https://dizzitech.github.io/');
   await page.locator('[data-language=ru]').click();
   await expect(page.locator('.button-order')).toHaveText('Заказать сайт');
   await expect(page.locator('.header-actions>.button')).toHaveText('Написать в WhatsApp');
-  await expect(page.locator('.contact-cta')).toHaveText('Связаться через WhatsApp');
+  await expect(page.locator('#contacts h2')).toHaveText('Контакты');
   await expect(page.locator('#contacts')).toContainText('Адрес сайта');
 });

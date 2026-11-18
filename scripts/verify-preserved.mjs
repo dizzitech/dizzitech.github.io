@@ -6,11 +6,11 @@ import assert from 'node:assert/strict';
 import { root, build, validateConfig } from './build.mjs';
 import config from '../site.config.mjs';
 
-// The clean, synchronized main commit before the Pages-only fix.
-const baselineCommit = 'bb99c11cd03c7f44e275c409949503e68f34d751';
+// The clean 1.4 commit before UI polish / Contacts 2.0.
+const baselineCommit = 'a9fa80c';
 const digest = value => createHash('sha256').update(value).digest('hex');
 const preservation = [];
-const files = ['src/template.html','src/css/styles.css','src/js/app.js','src/js/network.js','src/js/cursor.js','src/i18n/kk.js','src/i18n/ru.js','public/assets/favicon.svg','public/assets/og-image.png'];
+const files = ['src/js/network.js','src/js/cursor.js','src/i18n/kk.js','src/i18n/ru.js','public/assets/favicon.svg','public/assets/og-image.png'];
 for (const file of files) {
   const previous = execFileSync('git', ['show', `${baselineCommit}:${file}`], { cwd: root });
   const current = await readFile(path.join(root, file));
@@ -18,7 +18,14 @@ for (const file of files) {
   preservation.push({ file, sha256: digest(current), identicalToBaseline: true });
 }
 assert.deepEqual(validateConfig(config, true), []);
-assert(!config.whatsapp && !config.phone && !config.email, 'No fabricated contacts');
+const beforeTemplate = execFileSync('git', ['show', `${baselineCommit}:src/template.html`], { cwd: root, encoding: 'utf8' }).replaceAll('\r\n', '\n');
+const currentTemplate = (await readFile(path.join(root, 'src/template.html'), 'utf8')).replaceAll('\r\n', '\n');
+const mainSections = html => html.slice(html.indexOf('    <section class="hero'), html.indexOf('    <section id="contacts"'));
+assert.equal(mainSections(currentTemplate), mainSections(beforeTemplate), 'Hero, services or process markup changed');
+for (const id of ['brand-mark', 'visual-landing', 'visual-business', 'visual-education', 'visual-info', 'visual-update', 'visual-support']) {
+  const pattern = new RegExp(`<symbol id="${id}"[\\s\\S]*?</symbol>`);
+  assert.equal(currentTemplate.match(pattern)?.[0], beforeTemplate.match(pattern)?.[0], `SVG changed: ${id}`);
+}
 const inventory = async (directory, prefix = '') => {
   const result = [];
   for (const entry of await readdir(path.join(root, directory), { withFileTypes: true })) {

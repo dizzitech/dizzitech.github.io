@@ -6,6 +6,16 @@ import { serve } from '../scripts/serve.mjs';
 import config from '../site.config.mjs';
 import kk from '../src/i18n/kk.js';
 import ru from '../src/i18n/ru.js';
+import { normalizeWhatsApp } from '../src/js/contacts.js';
+
+let fallbackServer;
+test.beforeAll(async () => {
+  const directory = new URL('../test-results/empty-contacts/', import.meta.url).pathname.replace(/^\/(\w:)/, '$1');
+  await build({ config: { ...config, whatsapp: '', whatsappSecondary: '', phone: '', email: '' }, outDir: directory });
+  fallbackServer = serve({ port: 4176, directory });
+});
+test.afterAll(async () => { if (fallbackServer) await new Promise(resolve => fallbackServer.close(resolve)); });
+const fallback = 'http://127.0.0.1:4176/';
 
 const widths = [320, 375, 390, 768, 1024, 1280, 1440, 1920];
 for (const width of widths) {
@@ -73,7 +83,7 @@ test('language dictionaries, routes, persistence, translated labels and metadata
   await expect(page.locator('.menu-toggle, #main-nav, header nav')).toHaveCount(0);
 });
 
-test('simplified mobile header: keyboard language switch and WhatsApp dialog', async ({ page }) => {
+test('simplified mobile header: keyboard language switch and primary WhatsApp', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 }); await page.goto('/');
   await expect(page.locator('header nav, .menu-toggle, header a[href="#services"], header a[href="#process"], header a[href="#contacts"]:not([data-contact-preview])')).toHaveCount(0);
   await page.locator('[data-language=ru]').focus(); await page.keyboard.press('Enter');
@@ -82,13 +92,14 @@ test('simplified mobile header: keyboard language switch and WhatsApp dialog', a
   const cta = page.locator('.header-actions>.button');
   await expect(cta).toBeFocused();
   await expect(cta).toHaveAccessibleName(ru.write);
-  await page.keyboard.press('Enter');
-  await expect(page.getByRole('dialog')).toBeVisible();
-  await page.keyboard.press('Escape'); await expect(cta).toBeFocused();
+  const href = new URL(await cta.getAttribute('href'));
+  expect(href.pathname).toBe(`/${normalizeWhatsApp(config.whatsapp)}`);
+  expect(href.searchParams.get('text')).toBe(ru.whatsappMessage);
+  await expect(cta).toHaveAttribute('target', '_blank');
 });
 
 test('unconfigured contacts: honest dialog, focus trap, Escape, no fake external links', async ({ page }) => {
-  await page.goto('/ru/');
+  await page.goto(`${fallback}ru/`);
   expect(await page.locator('a[href^="https://wa.me"],a[href^="tel:"],a[href^="mailto:"]').count()).toBe(0);
   const trigger = page.locator('.hero-actions [data-contact-preview]');
   await trigger.click(); await expect(page.getByRole('dialog')).toBeVisible();
@@ -142,7 +153,7 @@ test('touch devices keep native pointer behavior and readable mobile canvas', as
 
 test('no JavaScript: simplified header, languages, contact status and word fallback', async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 320, height: 800 } });
-  const page = await context.newPage(); await page.goto('http://127.0.0.1:4173/');
+  const page = await context.newPage(); await page.goto(fallback);
   await expect(page.locator('h1')).toContainText(kk.hero1);
   await expect(page.locator('.network-fallback')).toBeVisible();
   await expect(page.locator('#main-nav, .menu-toggle')).toHaveCount(0);
@@ -186,7 +197,9 @@ test('automated accessibility: both languages, desktop + mobile and open dialog'
       expect(result.violations, JSON.stringify(result.violations.map(v => ({ id: v.id, nodes: v.nodes.map(n => n.html) })))).toEqual([]);
     }
   }
+  await page.goto(`${fallback}ru/`);
   await page.locator('.hero-actions .button').click();
+  await expect(page.getByRole('dialog')).toBeVisible();
   const modal = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(modal.violations).toEqual([]);
   await mkdir('reports', { recursive: true }); await writeFile('reports/axe.json', JSON.stringify(results, null, 2));
@@ -219,12 +232,12 @@ test('configured contact wiring and project Pages subpath, isolated local fixtur
     await expect(page.locator('meta[name=robots]')).toHaveAttribute('content', 'index, follow');
     await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href', fixture.siteUrl);
     await expect(page.locator('.network-stage')).toHaveClass(/ready/);
-    await expect(page.locator('a[href^="tel:"]')).toHaveAttribute('href', 'tel:+12025550100');
+    await expect(page.locator('.contact-phone')).toHaveAttribute('href', new RegExp('^https://wa.me/12025550100\\?text='));
     await expect(page.locator('a[href^="mailto:"]')).toHaveAttribute('href', 'mailto:test@example.invalid');
     await expect(page.locator('[data-website]')).toHaveAttribute('href', fixture.siteUrl);
-    await expect(page.locator('.contact-detail')).toHaveCount(4);
-    await page.locator('a[href^="tel:"]').hover();
-    await expect(page.locator('a[href^="tel:"]')).toHaveCSS('color', 'rgb(255, 255, 255)');
+    await expect(page.locator('.contact-detail')).toHaveCount(3);
+    await page.locator('.contact-phone').hover();
+    await expect(page.locator('.contact-phone')).toHaveCSS('color', 'rgb(255, 255, 255)');
     const headerHref = await page.locator('.header-actions>[data-whatsapp]').getAttribute('href');
     expect(new URL(headerHref).pathname).toBe('/12025550100');
     await page.locator('[data-language=ru]').click();

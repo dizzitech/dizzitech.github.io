@@ -1,0 +1,12 @@
+WhatsApp icon
+Source: https://github.com/simple-icons/simple-icons/blob/develop/icons/whatsapp.svg
+Retrieved: 2026-11-18
+License: Simple Icons, CC0 1.0 Universal (SIMPLE-ICONS-LICENSE.txt).
+The unmodified source SVG is vendored as whatsapp.svg. The build embeds its path
+in the local HTML sprite with currentColor, without an external icon dependency.
+WhatsApp is a trademark of its respective owner; CC0 does not grant trademark rights.
+Used only to identify the WhatsApp contact destination.
+
+Phone, mail and globe SVG symbols are original project artwork in src/template.html.
+Service illustrations and the DiziTech brand mark remain unchanged.
+Local Golos Text font license: fonts/OFL.txt.

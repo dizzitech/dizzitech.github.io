@@ -3,6 +3,7 @@ import ru from '../i18n/ru.js';
 import config from '../site.config.js';
 import { createNetwork } from './network.js';
 import { createCursor } from './cursor.js';
+import { whatsappUrl } from './contacts.js';
 
 const dictionaries = { kk, ru };
 const abort = new AbortController();
@@ -36,7 +37,9 @@ function words() {
 function updateContactLinks() {
   const d = dictionaries[language];
   document.querySelectorAll('[data-whatsapp]').forEach(link => {
-    if (config.whatsapp) link.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(d.whatsappMessage)}`;
+    const number = link.dataset.whatsapp === 'secondary' ? config.whatsappSecondary : config.whatsapp;
+    const href = whatsappUrl(number, d.whatsappMessage);
+    if (href) link.href = href;
   });
 }
 
